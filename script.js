@@ -1,3 +1,4 @@
+/*
 const jonas = {
   name: "Jonas Smetmann",
   age: 2024 - 1987,
@@ -11,3 +12,7 @@ const jonas = {
 jonas.location = "Dhaka";
 jonas.salary = 50;
 console.log(jonas);
+*/
+const heading = document.getElementById("heading");
+heading.classList.add("custom-class");
+console.log(heading);
